@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Web</title>
+    <link rel="stylesheet" href="./whatsapp.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <!-- THIS IS MAIN DIV -->
+
+    <div class="main-div">
+
+        <!-- THIS IS MAIN PART 1 DIV -->
+
+        <div class="main-part1">
+
+            <!-- THIS IS MAIN PART 1 HEAD  -->
+
+            <div class="main-part1-top-div">
+                <div class="top-div-flex">
+                    <div class="owner-user-icon">
+                        <a href="#"><i class="fa-solid fa-user"></i></a>
+                    </div>
+                    <div class="icon-tab">
+                        <div class="community-icon">
+                            <a href="#"><i class="fa-solid fa-users"></i></a>
+                        </div>
+                        <div class="status-icon">
+                            <a href="#"><i class="fa-brands fa-ubuntu"></i></a>
+                        </div>
+                        <div class="channel-icon">
+                            <a href="#"><i class="fa-solid fa-circle-plus"></i></a>
+                        </div>
+                        <div class="newchat-icon">
+                            <a href="#"><i class="fa-solid fa-square-plus"></i></a>
+                        </div>
+                        <div class="part1-more-dropdown">
+                            <label for="part1-dropdown">
+                                <div class="more-icon">
+                                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                                </div>
+                            </label>
+                            <input type="checkbox" id="part1-dropdown">
+                            <div class="part1-dropdown-data">
+                                <a href="#" class="part1-dropdown-data-link">New group</a>
+                                <a href="#" class="part1-dropdown-data-link">New community</a>
+                                <a href="#" class="part1-dropdown-data-link">Starred messages</a>
+                                <a href="#" class="part1-dropdown-data-link">Select chats</a>
+                                <a href="#" class="part1-dropdown-data-link">Settings</a>
+                                <a href="#" class="part1-dropdown-data-link">Log out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- THIS IS SEARCH BAR  -->
+
+                <div class="search-bar">
+                    <a href="#"><i class="fa-solid fa-magnifying-glass" id="part1-serach-icon"></i></a>
+                    <input type="search" class="search" placeholder="Search or start new chat">
+                    <div class="chat-filter-div">
+                        <svg viewBox="0 0 24 24" height="20" width="20" preserveAspectRatio="xMidYMid meet"
+                            class="chat-filter" version="1.1" x="0px" y="0px" enable-background="new 0 0 24 24"
+                            xml:space="preserve">
+                            <path fill="currentColor"
+                                d="M10,18.1h4v-2h-4V18.1z M3,6.1v2h18v-2H3z M6,13.1h12v-2H6V13.1z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- THIS IS CHATS MAIN DIV -->
+
+            <div class="chats-main-div">
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+                            <div class="chat-dropdown-div">
+                                <label for="chat-dropdown">
+                                    <i class="fa-solid fa-chevron-down" id="down-aerow"></i>
+                                </label>
+                                <input type="checkbox" id="chat-dropdown">
+                                <div class="chat-dropdown-data">
+                                    <a href="#" class="chat-dropdown-links">Archive chat</a>
+                                    <a href="#" class="chat-dropdown-links">Mute notifications</a>
+                                    <a href="#" class="chat-dropdown-links">Delete chat</a>
+                                    <a href="#" class="chat-dropdown-links">Pin chat</a>
+                                    <a href="#" class="chat-dropdown-links">Mark as unread</a>
+                                    <a href="#" class="chat-dropdown-links">Block</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="chats-div">
+                    <div class="user-icon-div">
+                        <a href="#"><i class="fa-solid fa-user" id="user-icon"></i></a>
+                    </div>
+                    <div class="chat-text-flex">
+                        <div class="chat-text-div">
+                            <span class="chat-heading">
+                                User Name
+                            </span>
+
+                            <span class="chat-time">
+                                10:00 AM
+                            </span>
+                        </div>
+                        <div class="chat-text-div2">
+                            <span class="message">
+                                Hello
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- THIS IS MAIN PART 2 DIV -->
+
+
+        <div class="main-part2">
+
+            <!-- THIS IS PART2 HEAD DIV  -->
+
+            <div class="main-part2-head-div">
+                <div class="part2-head-flex">
+                    <div class="part2-head-flex2">
+                        <div class="part2-user-icon-div">
+                            <a href="#"><i class="fa-solid fa-user" id="part2-user-icon"></i></a>
+                        </div>
+
+                        <div class="part2-head-text1">
+                            User Name
+                        </div>
+                    </div>
+                    <div class="part2-head-icon-tab">
+                        <div class="parr2-head-video-icon">
+                            <a href="#"><i class="fa-solid fa-video"></i></a>
+                            <a href="#"><i class="fa-solid fa-chevron-down" id="video-drop-aerow"></i></a>
+                        </div>
+                        <div class="part2-search-icon-div">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass" id="part2-search-icon"></i></a>
+                        </div>
+
+                        <div class="more-option-dropdown">
+                            <label for="part2-more-option-checked">
+                                <div class="more-option-icon-div">
+                                    <i class="fa-solid fa-ellipsis-vertical" id="more-option-icon"></i>
+                                </div>
+                            </label>
+                            <input type="checkbox" id="part2-more-option-checked">
+                            <div class="demo">
+                                <div class="dropdown-data">
+                                    <a href="#" class="data-links">Contact info</a>
+
+
+                                    <a href="#" class="data-links">Select messages</a>
+
+
+                                    <a href="#" class="data-links">Close chat</a>
+
+
+                                    <a href="#" class="data-links">Mute notifications</a>
+
+
+                                    <a href="#" class="data-links">Disappearing messages</a>
+
+
+                                    <a href="#" class="data-links">Clear chat</a>
+
+
+                                    <a href="#" class="data-links">Delete chat</a>
+
+
+                                    <a href="#" class="data-links">Report</a>
+
+
+                                    <a href="#" class="data-links">Block</a>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- THIS IS CONVERSATION PART  -->
+
+
+            <div class="conversation-div">
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+                <div class="client-message-main-div">
+                    <div class="client-message-div">
+                        <div class="client-message">Hello</div>
+                        <div class="time">5:00 AM</div>
+                    </div>
+                </div>
+                <div class="my-message-main-div">
+                    <div class="my-message-div">
+                        <span class="my-message">Yes</span>
+                        <span class="my-time">5:00AM</span>
+                    </div>
+                </div>
+            </div>
+            <!-- THIS IS MESSAGE BOX DIV  -->
+
+            <div class="part2-message-box-div">
+                <div class="message-box-flex">
+                    <div class="face-icon-div">
+                        <a href="#"><i class="fa-regular fa-face-laugh"></i></a>
+                    </div>
+                    <div class="plus-icon-div">
+                        <a href="#"><i class="fa-solid fa-plus"></i></a>
+                    </div>
+                    <input type="text" placeholder="Type a message" class="write-message">
+                    <div class="microphone-icon-div">
+                        <a href="#"><i class="fa-solid fa-microphone"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
